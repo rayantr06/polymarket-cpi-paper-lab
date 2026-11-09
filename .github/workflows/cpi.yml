@@ -1,0 +1,55 @@
+name: Test virtuel publication CPI
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: cpi-20261110-v1
+  cancel-in-progress: false
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+      - run: node --test test/*.test.mjs
+  session1:
+    needs: tests
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 1
+  session2:
+    needs: session1
+    if: needs.session1.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 2
+  session3:
+    needs: session2
+    if: needs.session2.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 3
+  session4:
+    needs: session3
+    if: needs.session3.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 4
+  session5:
+    needs: session4
+    if: needs.session4.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 5
+  session6:
+    needs: session5
+    if: needs.session5.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 6

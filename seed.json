@@ -1,0 +1,252 @@
+{
+  "frozenAt": "2026-11-09T23:06:56.833Z",
+  "events": [
+    {
+      "id": "1189083",
+      "slug": "october-inflation-us-monthly",
+      "title": "October Inflation US - Monthly",
+      "family": "monthly",
+      "markets": [
+        {
+          "slug": "will-monthly-inflation-be-0pt1-or-less-in-october-2026",
+          "question": "Will monthly inflation increase by 0.1% or less in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "≤0.1%",
+          "conditionId": "0x38af474618dfaa74bf62e795b16d606e428ffcdd012a74594b4affcb789c822a",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"33470549542168533545333317272050631582576444938132240960813682499877746366734\", \"115299334370530217467382713300499156037500499749053969160582453448203880440741\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-monthly-inflation-increase-by-0pt2-in-october-2026",
+          "question": "Will monthly inflation increase by 0.2% in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "0.2%",
+          "conditionId": "0xc89dbdc7e4cc491de7ad1e47119cfde431470d8c48b98cad626c2c21ae2c5497",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"42221757419796075214745276643599511709827971903361556375535220916664699852525\", \"112028572985991618407422053225277083529611996192901183721119211086442343501547\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-monthly-inflation-increase-by-0pt3-in-october-2026",
+          "question": "Will monthly inflation increase by 0.3% in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "0.3%",
+          "conditionId": "0x1477a29da5bdf455b9dc9a592462fc50be5d36ea303d8eb68934e54e82866c92",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"105740773335001335762844649510666932212071130919882213952650535306816170892027\", \"1215185012665762334321626546491455470534569930713988074565531858996286858398\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-monthly-inflation-increase-by-0pt4-in-october-2026",
+          "question": "Will monthly inflation increase by 0.4% in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "0.4%",
+          "conditionId": "0x84a5755b55c816fe8a86249e850687bc42e7ef66eb7166afcadb4eca36f51da0",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"3601670517881286998072353768095201355739678973139715259240482789336310814577\", \"16548660606951693577929781356019879497220235607453129252266389700136508675777\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-monthly-inflation-increase-by-0pt5-in-october-2026",
+          "question": "Will monthly inflation increase by 0.5% in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "0.5%",
+          "conditionId": "0x8c8a269e36dda719c6614bff8299cf269f455db5d87e4279c03fc3ac7932bdb1",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"49755244062421158595453202359480051894170966052047321376774807276597978046616\", \"60682627367718620392686578590609619624369510711661250498562994258581319399265\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-monthly-inflation-increase-by-0pt6-in-october-2026",
+          "question": "Will monthly inflation increase by 0.6% in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "0.6%",
+          "conditionId": "0xad042bff1fcb0810c6684c50c5d99b5f3cbbac095de35a4c1bc7df9105f8e886",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"115708099019212461714637191508320819934430005064389908501636185650063899507948\", \"69817769137031675728765536807467044336292283331016526290886428741073918779803\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-monthly-inflation-increase-by-0pt7-in-october-2026",
+          "question": "Will monthly inflation increase by 0.7% in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "0.7%",
+          "conditionId": "0x3557bf655df47701bd38a539a7f66bb295863557d3de038ca89635ae89d0b3f8",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"38532149584151813243942140595979217847957952136423055010291358825402743378146\", \"110689708665044449216824013994679245130943999341895679054536241924609683381096\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-monthly-inflation-increase-by-0pt8-in-october-2026",
+          "question": "Will monthly inflation increase by 0.8% in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "0.8%",
+          "conditionId": "0x18079ec394b4112b068698a3bfb3d2e9e5abffca3cb635799e9613925f1b85a0",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"93052526787849636900777534944266506377475058780483324387872200070601884140081\", \"44786632900717309949305159573276455292818017758723033134171078899591781872807\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-monthly-inflation-increase-by-0pt9-or-more-in-october-2026",
+          "question": "Will monthly inflation increase by 0.9% or more in October?",
+          "description": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "≥0.9%",
+          "conditionId": "0xfa9b4d4fdbbb00262d4272d434c160e594e7cd12368eb8bd720706c6ebc0a1fe",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"65397770188820932895427090351375093329011186230266526337366646570016683047475\", \"67633026981873200538830663158982820269262053501027007404802522306653134753258\"]",
+          "version": "v1",
+          "negRisk": true
+        }
+      ]
+    },
+    {
+      "id": "1189074",
+      "slug": "october-inflation-us-annual",
+      "title": "October Inflation US - Annual",
+      "family": "annual",
+      "markets": [
+        {
+          "slug": "will-annual-inflation-be-3pt2-or-less-in-october-2026",
+          "question": "Will annual inflation be 3.2% or less in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "≤3.2%",
+          "conditionId": "0x0a67bcd2688ba944884962d3c2d058b7f7cc21cc6e16bcfca089a7142cacf885",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"48426801349668674005812694993657098204047099854186330648574740909975044712526\", \"55962446206167670506844202045232960408117463639766261084759195745756216856824\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-3pt3-in-october-2026",
+          "question": "Will annual inflation be 3.3% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "3.3%",
+          "conditionId": "0xc52c35e4dcbfd8c46d7eae282e968d23281a1108a0d4c709e742fbfdac884c43",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"97986395714848649698562601945482674076261421274644099590917269864311403567323\", \"13095134561423456092116450246624657555296050965302378958487352903686807551169\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-3pt4-in-october-2026",
+          "question": "Will annual inflation be 3.4% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "3.4%",
+          "conditionId": "0x8581e09cfb8f0200ef6a90ddfed58a4369da12f5174c1603f656f0009a1516a0",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"27318074486847289775483902800369834840948508867512682996089018739430152237929\", \"102313920508033262317959462287577057200463008563491561227042574214631736003603\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-3pt5-in-october-2026",
+          "question": "Will annual inflation be 3.5% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "3.5%",
+          "conditionId": "0x57f0afb8041c0f7241943f174b52d52e19db9cdcbf8a02ff175165f16b31c837",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"90937839991705880735571702429755001757588488527649380875807028320107763141873\", \"27048680619174671856551496615859844332046337196446614174273927027522876325075\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-3pt6-in-october-2026",
+          "question": "Will annual inflation be 3.6% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "3.6%",
+          "conditionId": "0x1d9330a6398e823eafede92125ed12beb3a32679046ca2389e5dc76318264ed8",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"109594679768843811273260360342604008590612020153909764499817009384740237987423\", \"10662436422560574053681237521253200556765056399012031878508560483059877856300\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-3pt7-in-october-2026",
+          "question": "Will annual inflation be 3.7% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "3.7%",
+          "conditionId": "0xf464b826a86e0db857ae3db6362b91b4d2c289d5b14f7065b2d76fa89e44f3bd",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"55506053912473396186043599595125249306315376696843087653846512374676287586477\", \"36062459702436991384700060131075573115023958951882478132439979047925037127590\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-3pt8-in-october-2026",
+          "question": "Will annual inflation be 3.8% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "3.8%",
+          "conditionId": "0x2f490d6f6f72c535e24fee8881a26b394c362270d2080f1e7f0adf2ffd5f4c8c",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"44054681761060664002289574715315825639625865885484370554394144076089880352823\", \"75180189888551931149470973532751059383089711139272666243317512367594023900630\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-3pt9-in-october-2026",
+          "question": "Will annual inflation be 3.9% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "3.9%",
+          "conditionId": "0x0663378212ab1da5727f4c5eb768f0334e0eb141be456c1dc4816063101645a4",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"110770951909323588576614864622448783672327787612537152866704919622453735433816\", \"102091393226053245082003319559957279840226769882956696509886295549800761055513\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-4pt0-in-october-2026",
+          "question": "Will annual inflation be 4.0% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "4.0%",
+          "conditionId": "0xd5e110fb1375365e1083bc118e3a3b8695edfc740f582f040b51e34aeba29771",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"26407809195103868404274948071692882633726230514247412211607946575260267748154\", \"57464813949708670327020368490419379077027178911608510398056491172186281890985\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-4pt1-in-october-2026",
+          "question": "Will annual inflation be 4.1% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "4.1%",
+          "conditionId": "0x5abcad5f01d7c41bbd1af2fa678423cb0a15c17c009c2ee418df44bb3e199e43",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"77398616600338193422657773226274160673897734581172496709278926564669552529763\", \"55041806062744467496267091774533326855272782549158900479563336805024212157745\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-4pt2-in-october-2026",
+          "question": "Will annual inflation be 4.2% in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "4.2%",
+          "conditionId": "0x3f26ba42ebfbb26f7e529449d20f0b819c27865d4ec1664afd824e8530de203f",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"35323120330153017444622186530461296529881249954764931744618152202773685624606\", \"37100315259325931093450751122383316727722286566063606131675592531114622984093\"]",
+          "version": "v1",
+          "negRisk": true
+        },
+        {
+          "slug": "will-annual-inflation-be-4pt3-or-more-in-october-2026",
+          "question": "Will annual inflation be 4.3% or more in October?",
+          "description": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+          "groupItemTitle": "≥4.3%",
+          "conditionId": "0xb6eeed1de84af5c083e2dc19f1581525290494f2bccdd3c1a92e5722a9a35902",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "clobTokenIds": "[\"64888091230724213689562929053656769875424506280231342539114506937978750497415\", \"46121004602282253408179350204621788896143217714809564748031191831311995616197\"]",
+          "version": "v1",
+          "negRisk": true
+        }
+      ]
+    }
+  ]
+}

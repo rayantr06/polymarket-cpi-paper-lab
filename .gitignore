@@ -1,0 +1,3 @@
+checkpoint/
+*.sqlite*
+node_modules/
