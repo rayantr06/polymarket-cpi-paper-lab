@@ -1,0 +1,176 @@
+{
+  "updatedAt": 1794266169028.7324,
+  "phase": "waiting-for-release",
+  "manifest": {
+    "campaign": "cpi-20261110-v1",
+    "sourceRun": "42719004141",
+    "codeCommit": "64c43eb17bbe371be8f0c76685ccdfbb34fcdd4d",
+    "policyHash": "676401747c5c17bf16f4d755c60eb064fe06b03e47198dd7ba3c511f004a83f0",
+    "seedHash": "b5079c8dcc25137119aa55496c8cecb57d263b4f891e81fcd8bae4ec8e881182",
+    "createdAt": 1794266165613.595,
+    "releaseAt": 1794317400000,
+    "endAt": 1794339000000
+  },
+  "policy": {
+    "id": "cpi-20261110-v1",
+    "releaseAt": 1794317400000,
+    "referenceYear": 2026,
+    "referenceMonth": "October",
+    "referenceMonthNumber": 10,
+    "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "calendarUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
+    "delaysMs": [
+      1000,
+      5000,
+      15000
+    ],
+    "entryToleranceMs": 3000,
+    "maximumBookReceiptAgeMs": 1500,
+    "budgetPerFamily": 50,
+    "extraCostPerEntry": 0.02,
+    "maxSourceWaitMs": 1800000,
+    "settlementWaitMs": 21600000,
+    "armLeadMs": 600000,
+    "maxRequests": 3000,
+    "maxDatabaseBytes": 20971520,
+    "maxResponseBytes": 2000000,
+    "maxRecordBytes": 2000000,
+    "initializeBefore": 1794316500000,
+    "networkTimeoutMs": 4000,
+    "repository": "rayantr06/polymarket-cpi-paper-lab",
+    "publicScope": "Minimal autonomous CPI test code, public official-release and market snapshots, paper decisions and results only",
+    "otherPilots": "Do not modify, restart or read their databases"
+  },
+  "preflight": {
+    "at": 1794266169027.788,
+    "ok": true
+  },
+  "armed": null,
+  "finished": null,
+  "signal": null,
+  "scenarios": [
+    {
+      "delayMs": 1000,
+      "budget": 100,
+      "recordedFamilies": 0,
+      "entries": 0,
+      "complete": false,
+      "cost": 0,
+      "conditionalMargin": null,
+      "resolutionNet": null
+    },
+    {
+      "delayMs": 5000,
+      "budget": 100,
+      "recordedFamilies": 0,
+      "entries": 0,
+      "complete": false,
+      "cost": 0,
+      "conditionalMargin": null,
+      "resolutionNet": null
+    },
+    {
+      "delayMs": 15000,
+      "budget": 100,
+      "recordedFamilies": 0,
+      "entries": 0,
+      "complete": false,
+      "cost": 0,
+      "conditionalMargin": null,
+      "resolutionNet": null
+    }
+  ],
+  "decisions": [],
+  "sourceReads": [
+    {
+      "startedAt": 1794266168837.9062,
+      "receivedAt": 1794266168918.9224,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794266168837.9062",
+      "kind": "source-read",
+      "knownAt": 1794266168950.713
+    }
+  ],
+  "corrections": [],
+  "earlyReleases": [],
+  "clockAudits": [
+    {
+      "samples": [
+        {
+          "start": 1794266165619.7422,
+          "end": 1794266165888.4866,
+          "seconds": 1794266165,
+          "low": -888.486572265625,
+          "high": 380.2578125
+        },
+        {
+          "start": 1794266165888.5276,
+          "end": 1794266166376.0654,
+          "seconds": 1794266166,
+          "low": -376.0654296875,
+          "high": 1111.472412109375
+        },
+        {
+          "start": 1794266166376.072,
+          "end": 1794266166827.503,
+          "seconds": 1794266166,
+          "low": -827.5029296875,
+          "high": 623.927978515625
+        },
+        {
+          "start": 1794266166827.5117,
+          "end": 1794266166998.636,
+          "seconds": 1794266166,
+          "low": -998.635986328125,
+          "high": 172.48828125
+        },
+        {
+          "start": 1794266166998.6426,
+          "end": 1794266167170.6648,
+          "seconds": 1794266167,
+          "low": -170.664794921875,
+          "high": 1001.357421875
+        }
+      ],
+      "offsetMs": 0.9117431640625,
+      "uncertaintyMs": 171.5765380859375,
+      "at": 1794266167170.7415,
+      "id": "clock:b82a449a2c8d0e194632d80a147ffec8f933055502b56c5103a80f4c50ef9c93",
+      "kind": "clock",
+      "knownAt": 1794266167170.847
+    }
+  ],
+  "errors": [],
+  "requests": 32,
+  "sessions": [
+    {
+      "start": 1794266165619.0774,
+      "stop": 1794266225619.0774,
+      "boot": true,
+      "id": "session:1794266165619.0774",
+      "kind": "session",
+      "knownAt": 1794266165619.1206
+    }
+  ],
+  "databaseBytes": 708648,
+  "limitations": [
+    "Single CPI release: one risk episode, monthly and annual correlated; cannot establish repeatable edge.",
+    "Snapshots do not reserve liquidity or prove a live order would fill. No real trades or gains.",
+    "Delays begin at full-body BLS receipt, not global publication; scheduled-time lag includes unknown publication lag.",
+    "A price from a fresh full WebSocket snapshot may have an older last-update exchange timestamp; both are retained.",
+    "Spread is already paid by entering at the asks; never subtract it a second time.",
+    "The three delay portfolios are alternatives; do not add their gains. No capital is moved from an abstaining family.",
+    "Final resolution uses two public RPCs at the same Polygon block; unresolved positions have unknown net.",
+    "Public-runner availability, BLS availability, revisions and order races can invalidate execution."
+  ]
+}
