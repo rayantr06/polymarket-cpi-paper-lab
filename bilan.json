@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794266169028.7324,
+  "updatedAt": 1794282372484.1143,
   "phase": "waiting-for-release",
   "manifest": {
     "campaign": "cpi-20261110-v1",
@@ -148,10 +148,55 @@
       "id": "clock:b82a449a2c8d0e194632d80a147ffec8f933055502b56c5103a80f4c50ef9c93",
       "kind": "clock",
       "knownAt": 1794266167170.847
+    },
+    {
+      "samples": [
+        {
+          "start": 1794266172481.3303,
+          "end": 1794266172989.1562,
+          "seconds": 1794266172,
+          "low": -989.15625,
+          "high": 518.669677734375
+        },
+        {
+          "start": 1794266172989.1917,
+          "end": 1794266173482.014,
+          "seconds": 1794266173,
+          "low": -482.013916015625,
+          "high": 1010.808349609375
+        },
+        {
+          "start": 1794266173482.0254,
+          "end": 1794266173672.2344,
+          "seconds": 1794266173,
+          "low": -672.234375,
+          "high": 517.974609375
+        },
+        {
+          "start": 1794266173672.2588,
+          "end": 1794266173855.8733,
+          "seconds": 1794266173,
+          "low": -855.873291015625,
+          "high": 327.7412109375
+        },
+        {
+          "start": 1794266173855.8809,
+          "end": 1794266174034.8413,
+          "seconds": 1794266173,
+          "low": -1034.84130859375,
+          "high": 144.119140625
+        }
+      ],
+      "offsetMs": -168.9473876953125,
+      "uncertaintyMs": 313.0665283203125,
+      "at": 1794266174034.9182,
+      "id": "clock:00d0c4f8149a7dea59f094f7f204e6a1de5c5c37d3d09b16e23a04a266b7cd71",
+      "kind": "clock",
+      "knownAt": 1794266174035.0276
     }
   ],
   "errors": [],
-  "requests": 32,
+  "requests": 37,
   "sessions": [
     {
       "start": 1794266165619.0774,
@@ -160,9 +205,17 @@
       "id": "session:1794266165619.0774",
       "kind": "session",
       "knownAt": 1794266165619.1206
+    },
+    {
+      "start": 1794266172479.9368,
+      "stop": 1794282372479.9368,
+      "boot": false,
+      "id": "session:1794266172479.9368",
+      "kind": "session",
+      "knownAt": 1794266172479.9827
     }
   ],
-  "databaseBytes": 708648,
+  "databaseBytes": 287256,
   "limitations": [
     "Single CPI release: one risk episode, monthly and annual correlated; cannot establish repeatable edge.",
     "Snapshots do not reserve liquidity or prove a live order would fill. No real trades or gains.",
