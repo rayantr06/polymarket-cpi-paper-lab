@@ -146,6 +146,51 @@
       "id": "clock:ff471cf161517bbfaddfa2f0f357cee33cfc70e95185e3831536440b30bfdf7e",
       "kind": "clock",
       "knownAt": 1794282385361.7473
+    },
+    {
+      "samples": [
+        {
+          "start": 1794298595804.2651,
+          "end": 1794298596027.4602,
+          "seconds": 1794298595,
+          "low": -1027.460205078125,
+          "high": 195.73486328125
+        },
+        {
+          "start": 1794298596027.5178,
+          "end": 1794298596297.3662,
+          "seconds": 1794298596,
+          "low": -297.3662109375,
+          "high": 972.482177734375
+        },
+        {
+          "start": 1794298596297.3735,
+          "end": 1794298596398.1338,
+          "seconds": 1794298596,
+          "low": -398.1337890625,
+          "high": 702.62646484375
+        },
+        {
+          "start": 1794298596398.1448,
+          "end": 1794298596492.8367,
+          "seconds": 1794298596,
+          "low": -492.836669921875,
+          "high": 601.855224609375
+        },
+        {
+          "start": 1794298596492.8438,
+          "end": 1794298596588.8547,
+          "seconds": 1794298596,
+          "low": -588.854736328125,
+          "high": 507.15625
+        }
+      ],
+      "offsetMs": -50.815673828125,
+      "uncertaintyMs": 246.550537109375,
+      "at": 1794298596588.9624,
+      "id": "clock:f4b15728928f55db2bf8f98c06b6b8d26a84c5812ffa06e2544039a2da89debe",
+      "kind": "clock",
+      "knownAt": 1794298596589.0818
     }
   ],
   "requests": [
@@ -736,6 +781,76 @@
       "id": "request:42",
       "kind": "request",
       "knownAt": 1794282385360.5894
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "start": 1794298595805.3225,
+      "receivedAt": 1794298596026.06,
+      "status": 200,
+      "bytes": 10,
+      "date": "Tue, 10 Nov 2026 08:16:36 GMT",
+      "age": null,
+      "etag": null,
+      "id": "request:43",
+      "kind": "request",
+      "knownAt": 1794298596026.1553
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "start": 1794298596028.1606,
+      "receivedAt": 1794298596296.4028,
+      "status": 200,
+      "bytes": 10,
+      "date": "Tue, 10 Nov 2026 08:16:36 GMT",
+      "age": null,
+      "etag": null,
+      "id": "request:44",
+      "kind": "request",
+      "knownAt": 1794298596296.4373
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "start": 1794298596298.0493,
+      "receivedAt": 1794298596397.1921,
+      "status": 200,
+      "bytes": 10,
+      "date": "Tue, 10 Nov 2026 08:16:36 GMT",
+      "age": null,
+      "etag": null,
+      "id": "request:45",
+      "kind": "request",
+      "knownAt": 1794298596397.2139
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "start": 1794298596398.818,
+      "receivedAt": 1794298596491.8188,
+      "status": 200,
+      "bytes": 10,
+      "date": "Tue, 10 Nov 2026 08:16:36 GMT",
+      "age": null,
+      "etag": null,
+      "id": "request:46",
+      "kind": "request",
+      "knownAt": 1794298596491.8396
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "start": 1794298596493.4905,
+      "receivedAt": 1794298596587.864,
+      "status": 200,
+      "bytes": 10,
+      "date": "Tue, 10 Nov 2026 08:16:36 GMT",
+      "age": null,
+      "etag": null,
+      "id": "request:47",
+      "kind": "request",
+      "knownAt": 1794298596587.8804
     }
   ]
 }

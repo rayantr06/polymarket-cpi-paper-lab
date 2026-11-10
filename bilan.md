@@ -1,6 +1,6 @@
 # Test virtuel CPI — 10 novembre 2026
 
-État : **waiting-for-release**. Dernière mise à jour : 2026-11-10T08:16:24.431Z.
+État : **waiting-for-release**. Dernière mise à jour : 2026-11-10T12:46:35.803Z.
 
 Publication prévue : **2026-11-10T13:30:00.000Z — 05 h 30 à Los Angeles**. Référence : octobre 2026.
 
@@ -12,7 +12,7 @@ Révision : 64c43eb17bbe371be8f0c76685ccdfbb34fcdd4d. Campagne fixe : cpi-202611
 
 Précontrôle cloud : réussi à 2026-11-09T23:16:09.027Z. Réception complète du communiqué cible : —.
 La page du mois précédent ne déclenche aucun signal. Aucun prix post-annonce observé pour le moment.
-Lectures BLS interprétées : 1 ; erreurs consignées : 0 ; corrections après premier signal : 0. Requêtes publiques : 42/3000.
+Lectures BLS interprétées : 1 ; erreurs consignées : 0 ; corrections après premier signal : 0. Requêtes publiques : 47/3000.
 
 ## Trois scénarios alternatifs
 
