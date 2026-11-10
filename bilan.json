@@ -1,6 +1,6 @@
 {
-  "updatedAt": 1794314795803.232,
-  "phase": "waiting-for-release",
+  "updatedAt": 1794319200519.9211,
+  "phase": "finished",
   "manifest": {
     "campaign": "cpi-20261110-v1",
     "sourceRun": "42719004141",
@@ -45,8 +45,13 @@
     "at": 1794266169027.788,
     "ok": true
   },
-  "armed": null,
-  "finished": null,
+  "armed": {
+    "at": 1794316800875.9553
+  },
+  "finished": {
+    "at": 1794319200519.2366,
+    "reason": "Official target unavailable within 30 minutes; no entries"
+  },
   "signal": null,
   "scenarios": [
     {
@@ -99,6 +104,204 @@
       "id": "source-read:1794266168837.9062",
       "kind": "source-read",
       "knownAt": 1794266168950.713
+    },
+    {
+      "startedAt": 1794317390007.157,
+      "receivedAt": 1794317390159.0598,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317390007.157",
+      "kind": "source-read",
+      "knownAt": 1794317390163.3462
+    },
+    {
+      "startedAt": 1794317391008.053,
+      "receivedAt": 1794317391020.4097,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317391008.053",
+      "kind": "source-read",
+      "knownAt": 1794317391023.0098
+    },
+    {
+      "startedAt": 1794317392028.5068,
+      "receivedAt": 1794317392039.687,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317392028.5068",
+      "kind": "source-read",
+      "knownAt": 1794317392041.9104
+    },
+    {
+      "startedAt": 1794317393050.2246,
+      "receivedAt": 1794317393061.4062,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317393050.2246",
+      "kind": "source-read",
+      "knownAt": 1794317393063.7537
+    },
+    {
+      "startedAt": 1794317394050.762,
+      "receivedAt": 1794317394076.354,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317394050.762",
+      "kind": "source-read",
+      "knownAt": 1794317394079.381
+    },
+    {
+      "startedAt": 1794317395072.074,
+      "receivedAt": 1794317395082.8953,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317395072.074",
+      "kind": "source-read",
+      "knownAt": 1794317395085.2332
+    },
+    {
+      "startedAt": 1794317396092.9155,
+      "receivedAt": 1794317396103.1516,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317396092.9155",
+      "kind": "source-read",
+      "knownAt": 1794317396105.7112
+    },
+    {
+      "startedAt": 1794317397093.6274,
+      "receivedAt": 1794317397104.744,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317397093.6274",
+      "kind": "source-read",
+      "knownAt": 1794317397107.1184
+    },
+    {
+      "startedAt": 1794317398114.5588,
+      "receivedAt": 1794317398125.7954,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317398114.5588",
+      "kind": "source-read",
+      "knownAt": 1794317398128.085
+    },
+    {
+      "startedAt": 1794317399134.8105,
+      "receivedAt": 1794317399146.4495,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317399134.8105",
+      "kind": "source-read",
+      "knownAt": 1794317399149.0627
+    },
+    {
+      "startedAt": 1794317400135.4287,
+      "receivedAt": 1794317400146.696,
+      "bodyHash": "b9e7ff678e532a28566b5e2a5915a743f99dd3cd1795d85c9d301690578f6843",
+      "release": {
+        "year": 2026,
+        "month": 9,
+        "monthName": "September",
+        "monthly": 6,
+        "annual": 37,
+        "unit": "tenths of a percentage point",
+        "releaseDate": "2026-10-14",
+        "headlineTableAgreement": true
+      },
+      "id": "source-read:1794317400135.4287",
+      "kind": "source-read",
+      "knownAt": 1794317400148.938
     }
   ],
   "corrections": [],
@@ -283,10 +486,2101 @@
       "id": "clock:f4b15728928f55db2bf8f98c06b6b8d26a84c5812ffa06e2544039a2da89debe",
       "kind": "clock",
       "knownAt": 1794298596589.0818
+    },
+    {
+      "samples": [
+        {
+          "start": 1794314805788.2336,
+          "end": 1794314806132.265,
+          "seconds": 1794314806,
+          "low": -132.264892578125,
+          "high": 1211.766357421875
+        },
+        {
+          "start": 1794314806132.3242,
+          "end": 1794314806402.0771,
+          "seconds": 1794314806,
+          "low": -402.0771484375,
+          "high": 867.67578125
+        },
+        {
+          "start": 1794314806402.0842,
+          "end": 1794314806508.6167,
+          "seconds": 1794314806,
+          "low": -508.61669921875,
+          "high": 597.915771484375
+        },
+        {
+          "start": 1794314806508.6243,
+          "end": 1794314806780.5063,
+          "seconds": 1794314806,
+          "low": -780.50634765625,
+          "high": 491.375732421875
+        },
+        {
+          "start": 1794314806780.5137,
+          "end": 1794314806888.83,
+          "seconds": 1794314806,
+          "low": -888.830078125,
+          "high": 219.486328125
+        }
+      ],
+      "offsetMs": 43.6107177734375,
+      "uncertaintyMs": 175.8756103515625,
+      "at": 1794314806888.9026,
+      "id": "clock:682942ac3c2a8ac93031922f86c64056de1dd314228b09fb74b77f2135c54bde",
+      "kind": "clock",
+      "knownAt": 1794314806889.0225
+    },
+    {
+      "samples": [
+        {
+          "start": 1794316800000.4075,
+          "end": 1794316800141.4573,
+          "seconds": 1794316800,
+          "low": -141.457275390625,
+          "high": 999.592529296875
+        },
+        {
+          "start": 1794316800141.4644,
+          "end": 1794316800406.3792,
+          "seconds": 1794316800,
+          "low": -406.379150390625,
+          "high": 858.53564453125
+        },
+        {
+          "start": 1794316800406.3909,
+          "end": 1794316800512.6646,
+          "seconds": 1794316800,
+          "low": -512.66455078125,
+          "high": 593.609130859375
+        },
+        {
+          "start": 1794316800512.6733,
+          "end": 1794316800772.9316,
+          "seconds": 1794316800,
+          "low": -772.931640625,
+          "high": 487.32666015625
+        },
+        {
+          "start": 1794316800772.9421,
+          "end": 1794316800875.2905,
+          "seconds": 1794316800,
+          "low": -875.29052734375,
+          "high": 227.057861328125
+        }
+      ],
+      "offsetMs": 42.80029296875,
+      "uncertaintyMs": 184.257568359375,
+      "at": 1794316800875.325,
+      "id": "clock:bf54338edd7d7695389a2f412fd1d7b3f18726027595af85bf45cf721399cc2e",
+      "kind": "clock",
+      "knownAt": 1794316800875.3882
     }
   ],
-  "errors": [],
-  "requests": 47,
+  "errors": [
+    {
+      "stage": "source-fetch",
+      "message": "TimeoutError: The operation was aborted due to timeout",
+      "at": 1794317405157.9712,
+      "id": "error:source-fetch:c0742590ee16d17207c95fed388afe831ebc820761958472d3543f617960661a",
+      "kind": "error",
+      "knownAt": 1794317405157.9763
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317406791.3308,
+      "id": "error:source-parser:887276ceba649be46fb07891ae4586fb96883bcfbd90cffd9581fa58e97e4bdb",
+      "kind": "error",
+      "knownAt": 1794317406791.3362
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317406888.2212,
+      "id": "error:source-parser:d28e92eb7244982048f7f478127cc4bd1695f5f6978c87443806607d1841035c",
+      "kind": "error",
+      "knownAt": 1794317406888.2222
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317407935.2058,
+      "id": "error:source-parser:8b78a38f7407eb4662fc5bd95acfe02bfdce8e72435e09beff249d9468b24305",
+      "kind": "error",
+      "knownAt": 1794317407935.2068
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317408864.9312,
+      "id": "error:source-parser:f9d019c13e6e377e75a47753ee8342199d8acfd1051472d2be815f6b3da9e62f",
+      "kind": "error",
+      "knownAt": 1794317408864.9321
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317409849.6257,
+      "id": "error:source-parser:92e3093b4ebc2f8b48935976b7708c598e0fc431083ff71515890083d76ac5b7",
+      "kind": "error",
+      "knownAt": 1794317409849.627
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317410850.9705,
+      "id": "error:source-parser:fccd0c3f77c5da75d7ac0e6e17abb62b665765150c6bc89af09f7d3b2c903fab",
+      "kind": "error",
+      "knownAt": 1794317410850.9717
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317411875.3445,
+      "id": "error:source-parser:dd7fafee038256bfd6e61aeedb602f20caadf9bd12f9c190c93d7bc3e8454407",
+      "kind": "error",
+      "knownAt": 1794317411875.3457
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317412894.74,
+      "id": "error:source-parser:9094495e93c4c5de8c20f7d2cd82e5c592d4a6bf3a7c500a824ef84f5f028702",
+      "kind": "error",
+      "knownAt": 1794317412894.741
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317413912.4263,
+      "id": "error:source-parser:627323b640566ed44655c3bb7de58e96959d3fd10039f0cb4ddf91f39c7d1211",
+      "kind": "error",
+      "knownAt": 1794317413912.428
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317414916.4897,
+      "id": "error:source-parser:5eac4ceb40af1729d34110542b03eed60c6cd1236294ea5abccae63ad90f108e",
+      "kind": "error",
+      "knownAt": 1794317414916.4907
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317415937.3342,
+      "id": "error:source-parser:8c8ee544a6f60605bcc8b665e23b2249b383590d5c24ca7b2161a882fa4cecfb",
+      "kind": "error",
+      "knownAt": 1794317415937.3354
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317416936.8064,
+      "id": "error:source-parser:19f0fc3148b2bf6067c908666791cbaf84caef10ee35a705863c0d20fdf453d8",
+      "kind": "error",
+      "knownAt": 1794317416936.8071
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317417957.178,
+      "id": "error:source-parser:ca28a86252c7fe791cc4bf53839d6df5671c0cb3e690d7656fec256ec1c4c984",
+      "kind": "error",
+      "knownAt": 1794317417957.179
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317418977.9524,
+      "id": "error:source-parser:1dc5edf2b6f269aaee4e5b17cf7c889b3d19065f3a499b211beabf5921efe09c",
+      "kind": "error",
+      "knownAt": 1794317418977.9531
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317420001.6467,
+      "id": "error:source-parser:fe8a15c9744fd9c6c48c057a4899eb592f75e24bd37e4e53da7ce164e02f026f",
+      "kind": "error",
+      "knownAt": 1794317420001.6475
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317421021.3376,
+      "id": "error:source-parser:ea390f797c2a28af244ec1e538a1809c13d5ad7ae7bf0bac482274751d03f19c",
+      "kind": "error",
+      "knownAt": 1794317421021.3384
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317422043.721,
+      "id": "error:source-parser:3db5eada0477e309119a9a18ff9f32dda736e542e2a8798c3c0efed6f5eaf344",
+      "kind": "error",
+      "knownAt": 1794317422043.7217
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317423064.4287,
+      "id": "error:source-parser:ebbf0faaa1a718b6a6b3366e86caa7e7e32354b380326a98037ef197427101ad",
+      "kind": "error",
+      "knownAt": 1794317423064.4294
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317424085.4104,
+      "id": "error:source-parser:a4cfca253a62cd529204387d00134c760c4632402a3415f738a15f5a0646b663",
+      "kind": "error",
+      "knownAt": 1794317424085.4114
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317425107.2207,
+      "id": "error:source-parser:82724ddb0498af595560a19d24da4dc6bbcf6565f5671e831ca8fbb3a2c34040",
+      "kind": "error",
+      "knownAt": 1794317425107.2214
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317426142.4639,
+      "id": "error:source-parser:b5edb1c97c988356db8e9709a51dc0633472ea7eb7c96edb6bbabdc1a7ec9703",
+      "kind": "error",
+      "knownAt": 1794317426142.4646
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317427128.967,
+      "id": "error:source-parser:f77cf998f2b08711dc2747a884feef0e6a03bdd28755ea046e7377279e744159",
+      "kind": "error",
+      "knownAt": 1794317427128.9678
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317428148.2236,
+      "id": "error:source-parser:f24ea6d1c1cc887b3389bcf7637ee57aa2034cd8f199358d9fc5a4c634c05697",
+      "kind": "error",
+      "knownAt": 1794317428148.2244
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317429170.1204,
+      "id": "error:source-parser:876994aa4bcedde08b06396b5fab2146a95cb684aaeb681e62b363f4d665bc8a",
+      "kind": "error",
+      "knownAt": 1794317429170.1213
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317430191.1294,
+      "id": "error:source-parser:cb5d9da2416f18aefc711770eb05a7f082f801d7fcb1e53b18333ef7347f6147",
+      "kind": "error",
+      "knownAt": 1794317430191.1301
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317431212.0562,
+      "id": "error:source-parser:ceb58e2406a9e00075857797bfe936d19e9bf3d57ab19676d434b5bf6bb9407c",
+      "kind": "error",
+      "knownAt": 1794317431212.0571
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317432235.3208,
+      "id": "error:source-parser:a6d05700da9c7631670cc45045485efb9ec173586abb5d4e1d1dc3c8130b0440",
+      "kind": "error",
+      "knownAt": 1794317432235.3218
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317433257.3958,
+      "id": "error:source-parser:8ef4b5becd1f35bd8f12b2162883d2bd6d0f2247fbaf89dd29c1a860535bbac4",
+      "kind": "error",
+      "knownAt": 1794317433257.3965
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317434277.242,
+      "id": "error:source-parser:2d884b9f37bf2cc94dce8b0ec7ac6bcc6aefe462adbf949460ba705428e88f57",
+      "kind": "error",
+      "knownAt": 1794317434277.2427
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317435301.6257,
+      "id": "error:source-parser:7ed750580cb0c1082ab5337bab9bce9a09246e7917d1081df020b9fb2b67f373",
+      "kind": "error",
+      "knownAt": 1794317435301.6265
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317436320.9053,
+      "id": "error:source-parser:9dd4aba03d9b9ae8d8b2ef0fd88b5206f8d648cdabacd99952d1f1c1beaf401e",
+      "kind": "error",
+      "knownAt": 1794317436320.906
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317437341.068,
+      "id": "error:source-parser:eb004a66e0e9591b041925ffc8dd4a10ae35b56328d5710f91194e5c7bddaaa3",
+      "kind": "error",
+      "knownAt": 1794317437341.0688
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317438352.5244,
+      "id": "error:source-parser:870303d3fe2f54c1e5f0a1a1fddcd649f069f04bfc58f5819400c1964e1ca14d",
+      "kind": "error",
+      "knownAt": 1794317438352.5254
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317439364.467,
+      "id": "error:source-parser:33ecda59062bc16766af91ed7e22730742252d0fb4a4d50b2b713f9364d73e05",
+      "kind": "error",
+      "knownAt": 1794317439364.4678
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317440384.8508,
+      "id": "error:source-parser:b1637876a8f3209b44124f0004566286d6b050360feb369f318e30c5a67454af",
+      "kind": "error",
+      "knownAt": 1794317440384.8518
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317441406.302,
+      "id": "error:source-parser:da1b7a66073908935fe9040ed43d4be2d0dea054c9141a9731014a72e6640667",
+      "kind": "error",
+      "knownAt": 1794317441406.303
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317442434.6743,
+      "id": "error:source-parser:269e3437296a478163b48e7c8d157d0cd64ffbd35f8d848a29cd52d01c06eb44",
+      "kind": "error",
+      "knownAt": 1794317442434.6753
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317443451.9495,
+      "id": "error:source-parser:ac5f89e5f77b254adc57ca8abe9e85e82d9faa2e2c68d8af2004c522d9fe5988",
+      "kind": "error",
+      "knownAt": 1794317443451.9497
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317444472.2095,
+      "id": "error:source-parser:6aa7c77e0f16059aab698148a061af56c37c932edbdd7ab44961518e398a1cd2",
+      "kind": "error",
+      "knownAt": 1794317444472.21
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317445472.9814,
+      "id": "error:source-parser:567f028d1a3189fef8675c4464167715c5bfa2666cdeb6cb269acc5d252b5103",
+      "kind": "error",
+      "knownAt": 1794317445472.982
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317446493.8965,
+      "id": "error:source-parser:3bbf423d0acb37b74a94d17e7e847c49892c8ac15d5db4e4638737edcfc7bf9e",
+      "kind": "error",
+      "knownAt": 1794317446493.8967
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317447494.152,
+      "id": "error:source-parser:f4d23bb533649d0bdf1834f3c3b03b342b00d4e010b4e545218fb4e4d1ebbf69",
+      "kind": "error",
+      "knownAt": 1794317447494.1523
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317448514.9346,
+      "id": "error:source-parser:8c09e025224721c9ed8bd7ab462e7923b7b3e5831dffee19fdb268d5890adb29",
+      "kind": "error",
+      "knownAt": 1794317448514.935
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317449536.642,
+      "id": "error:source-parser:0f93ab501a19ed756edea5421a4fc501e61ae3c5408103ce22e91129c1d403ad",
+      "kind": "error",
+      "knownAt": 1794317449536.6426
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317450558.4004,
+      "id": "error:source-parser:6b133e548613f6da0c882fdc1f8b8477d7fed055d6ed1f218b71366d996336aa",
+      "kind": "error",
+      "knownAt": 1794317450558.4006
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317451581.99,
+      "id": "error:source-parser:745fc63b7bdebb14ac41461496cfb1ee1ebb714a929849d3371112ea4107d0ad",
+      "kind": "error",
+      "knownAt": 1794317451581.9902
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317452601.4072,
+      "id": "error:source-parser:59a34149837af3dfa0be485af001f6e2321d8d66ccf27f6f1791847f78c3dcda",
+      "kind": "error",
+      "knownAt": 1794317452601.4075
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317453620.5613,
+      "id": "error:source-parser:4a95d942ad27dceebc7427249992eb78dbc05e72652195e244619146be7c631a",
+      "kind": "error",
+      "knownAt": 1794317453620.5615
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317454643.2524,
+      "id": "error:source-parser:f2691537823f8f43ab94333616c41022af2b2eafc9f912718a77ae482d504b26",
+      "kind": "error",
+      "knownAt": 1794317454643.253
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317455664.5413,
+      "id": "error:source-parser:cb37a0c4211b98271c271fa55a61169369db79ff5e26c57cd97fa62c4b411245",
+      "kind": "error",
+      "knownAt": 1794317455664.5417
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317456698.2375,
+      "id": "error:source-parser:d4aaf2a2b867790b867ffadc93bed7dda5475a54626ee3af3ed60c7e6800ba6f",
+      "kind": "error",
+      "knownAt": 1794317456698.2378
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317457718.9622,
+      "id": "error:source-parser:899c67b2b021bc827879465f70d90327f7ba95f5a588749aff0900933c0ba502",
+      "kind": "error",
+      "knownAt": 1794317457718.9624
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317458732.2937,
+      "id": "error:source-parser:312f95131cacba677e156f5884390ba5705409dfbf830d6be43f56094e2d4e08",
+      "kind": "error",
+      "knownAt": 1794317458732.2942
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317459751.9478,
+      "id": "error:source-parser:fd405bb83064166a9d03619551da7ba6f744162a6bbf446e7a00d4c292d7843d",
+      "kind": "error",
+      "knownAt": 1794317459751.948
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317460773.9897,
+      "id": "error:source-parser:1e0960660733a1056f747940ecd5e20cf7daf9e2010b132756e167a6215f8ddd",
+      "kind": "error",
+      "knownAt": 1794317460773.9902
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317461774.0774,
+      "id": "error:source-parser:af5d9375def4998b9521c36f979ad06dc04c83534aeb3d6a820505624aed3d3d",
+      "kind": "error",
+      "knownAt": 1794317461774.078
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317462797.449,
+      "id": "error:source-parser:fbc09d47794de9a5d2a6b3592689c8af6bd64eb2402235a9d638eab3865ae20e",
+      "kind": "error",
+      "knownAt": 1794317462797.4492
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317463817.506,
+      "id": "error:source-parser:72902143f0d493e40c4c487c89c38b191864216a01ed1000172a839ff6ad5c30",
+      "kind": "error",
+      "knownAt": 1794317463817.5063
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317464840.0679,
+      "id": "error:source-parser:9bd02c9b62f0400c9f5a4914042a21df30c066a620c29d248f2dfddb4d9437b8",
+      "kind": "error",
+      "knownAt": 1794317464840.0684
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317465848.7979,
+      "id": "error:source-parser:f6633cb4ec7bf4f63f8ae11842babb53a4605ad605853f089915c5177734006b",
+      "kind": "error",
+      "knownAt": 1794317465848.7983
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317466862.2087,
+      "id": "error:source-parser:054acd5d5f3797d6ee15aac18b2237baf204f358a845c5d2ef60ca2edc6f9e2e",
+      "kind": "error",
+      "knownAt": 1794317466862.209
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317467881.3154,
+      "id": "error:source-parser:718c63f11db218c7fb47163d3f5591678b5b248825693279f538162810b320b2",
+      "kind": "error",
+      "knownAt": 1794317467881.3157
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317468884.94,
+      "id": "error:source-parser:412700c2b26d24c4b3d666e8da1905708f08d55fe595c0bdc99f7b8466102f79",
+      "kind": "error",
+      "knownAt": 1794317468884.9402
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317469902.29,
+      "id": "error:source-parser:6d68f47d16da8e8de12a76e0fc7d70bc8715ab1f48d5a77ee1f88ae65426be9e",
+      "kind": "error",
+      "knownAt": 1794317469902.2905
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317470926.3489,
+      "id": "error:source-parser:54acc4ec1ca2ca47eba4114ebbe7c9fe8a6039a41df82b61f29b40d62caba04a",
+      "kind": "error",
+      "knownAt": 1794317470926.3494
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317471946.6875,
+      "id": "error:source-parser:dc950e5eb338062abc9ea2b540a06fb5be898d2fe932bf025c1f80f62500e8b8",
+      "kind": "error",
+      "knownAt": 1794317471946.688
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317472968.5105,
+      "id": "error:source-parser:c603436875ba18c6bc9bc8627a7692f4f312a7783ccea01466371e52050520fe",
+      "kind": "error",
+      "knownAt": 1794317472968.511
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317473969.203,
+      "id": "error:source-parser:a8b13693d28b387d68b41a290c8b993792513173559536b5b1f380f5f84cee34",
+      "kind": "error",
+      "knownAt": 1794317473969.2031
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317474990.8408,
+      "id": "error:source-parser:2f11b5c3814262693b9cc39aa31904e751102346b2882c5a487e1e397de2c54d",
+      "kind": "error",
+      "knownAt": 1794317474990.841
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317476012.5535,
+      "id": "error:source-parser:2b9aca9c9db78c24f9fa7606735b8334f7d082e9c38f9f3a5655d8f701cdc8a5",
+      "kind": "error",
+      "knownAt": 1794317476012.554
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317477035.434,
+      "id": "error:source-parser:9268f0ee43f3d61ffd1875663536287d08938ce85dbfdefebd05cdd46c7e9cd0",
+      "kind": "error",
+      "knownAt": 1794317477035.4346
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317478055.4292,
+      "id": "error:source-parser:afadcfc6f5710e73f784a9fb8ccc4da2c4424646a47f16f7730dcd509d5d4ae5",
+      "kind": "error",
+      "knownAt": 1794317478055.4294
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317479077.0286,
+      "id": "error:source-parser:f8dc5a150662761e2de7991b5066aad956f9e6ea83723d723f37ec0ffc52956d",
+      "kind": "error",
+      "knownAt": 1794317479077.029
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317480098.2368,
+      "id": "error:source-parser:71b9c62d142f0b8916bf82e7e65871bb13e2e3369580be40e2f1a66b0e6b22a5",
+      "kind": "error",
+      "knownAt": 1794317480098.237
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317481122.2188,
+      "id": "error:source-parser:3cef375df39eb919e1094c59adaf3340bbaf7bc8d450554bbacb85b89acd89b4",
+      "kind": "error",
+      "knownAt": 1794317481122.2192
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317482144.2798,
+      "id": "error:source-parser:835d5683c82ee852edd4a1a148a8348f845406c4812047986142b089211a3657",
+      "kind": "error",
+      "knownAt": 1794317482144.2803
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317483170.761,
+      "id": "error:source-parser:f51b0ee8921cfa240f1000bf63a8d78769dc95660d2e5a621a48ce95aaa05a57",
+      "kind": "error",
+      "knownAt": 1794317483170.7615
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317484186.916,
+      "id": "error:source-parser:d7dcfcf63c5fcde481ab6409813217be29636dfbbef865c9e55aa6196a3f2424",
+      "kind": "error",
+      "knownAt": 1794317484186.9165
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317485259.4744,
+      "id": "error:source-parser:678462e60c865b4b88f0c6902af9bcc2c8ef5e1fc8c70a36be4a8c85d2a8f048",
+      "kind": "error",
+      "knownAt": 1794317485259.4749
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317486235.0088,
+      "id": "error:source-parser:8a3882b2bedcedb337732b596dbd6660a96d89243c597f098c340c46d7eb3ef8",
+      "kind": "error",
+      "knownAt": 1794317486235.0093
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317487262.7776,
+      "id": "error:source-parser:45018a0c6c5b48fdbbf9f1c83637b2daff25493e65e66422fb7c626d1a8da629",
+      "kind": "error",
+      "knownAt": 1794317487262.7778
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317488276.7112,
+      "id": "error:source-parser:2095a6233aa92fc9be82e6abb29cf16cc16597afb344115fe7d6249328dc4195",
+      "kind": "error",
+      "knownAt": 1794317488276.7117
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317489303.2168,
+      "id": "error:source-parser:54ea81fd03eb79a931330626db9ab3672f66c4a1dfbaf81528f73fcf5b528df6",
+      "kind": "error",
+      "knownAt": 1794317489303.2173
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317490300.288,
+      "id": "error:source-parser:470847fc5efd7292522c566470885fdafe0f0b86b86823d35eb9d5c204845a76",
+      "kind": "error",
+      "knownAt": 1794317490300.2886
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317491318.363,
+      "id": "error:source-parser:25dc2d2c5470e86904032199db4036b5fe7e810015854efec3c5d3450903aec1",
+      "kind": "error",
+      "knownAt": 1794317491318.3635
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317492384.764,
+      "id": "error:source-parser:f86ae39ffc37914097686c4e4458629be87f509cc5081e73e48195fb308f99f9",
+      "kind": "error",
+      "knownAt": 1794317492384.7642
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317493365.085,
+      "id": "error:source-parser:a79f6b8d1577d7ca8930c831207d2b0adf8990fb84518f051dba3019416d23b6",
+      "kind": "error",
+      "knownAt": 1794317493365.0854
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317494383.7556,
+      "id": "error:source-parser:a5600e57901de9bd58977167aee1e2a5d0915ef1f71cbd4539ae263a648fdb05",
+      "kind": "error",
+      "knownAt": 1794317494383.756
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317495445.7192,
+      "id": "error:source-parser:b7740272db6f36a70ad0ec2ab6f9636cdf32c0cca40897e5b393c6a9f030f017",
+      "kind": "error",
+      "knownAt": 1794317495445.7195
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317496427.3723,
+      "id": "error:source-parser:99fc385be5d366a5d958ce9286f94ead5ec04994cff846ad43782898e6a9bfb4",
+      "kind": "error",
+      "knownAt": 1794317496427.3726
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317497448.9558,
+      "id": "error:source-parser:994f4fb24326ccd5026ebb223c312fb83ddfeec043243987e515fae44eefb19f",
+      "kind": "error",
+      "knownAt": 1794317497448.9563
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317498449.3218,
+      "id": "error:source-parser:d7a81f971c4f83eff34361dd3cf897362d7af6c03402c74e0627e513c93c592e",
+      "kind": "error",
+      "knownAt": 1794317498449.3223
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317499469.655,
+      "id": "error:source-parser:ecc0172fc1bcf34bed01fe39861a1991ad0eb846f21ea0c855d1a01b0374f2f3",
+      "kind": "error",
+      "knownAt": 1794317499469.6555
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317500492.3748,
+      "id": "error:source-parser:3a85f4145b7f34b5c436102d2e078ee69807ba52934c6fbbac07363fea35ea76",
+      "kind": "error",
+      "knownAt": 1794317500492.375
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317501513.5403,
+      "id": "error:source-parser:d7240a70eb87fa585d77371f266899e1159a9ff9b59042a113e5c176cf3d15b1",
+      "kind": "error",
+      "knownAt": 1794317501513.5408
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317502547.975,
+      "id": "error:source-parser:a3e0b1898f03daebf3272446786b4febf9c29e5a2f3ccf429d943469a29a7a0e",
+      "kind": "error",
+      "knownAt": 1794317502547.9753
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317503560.4424,
+      "id": "error:source-parser:5dddcc2d15496bdd886853cba61626376327b183b0f016ec1d3b063f781cbfda",
+      "kind": "error",
+      "knownAt": 1794317503560.4429
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317504581.3582,
+      "id": "error:source-parser:3fc02a8fbebe04a534c745f8004c34fb7e21acb0c1147c2aa0845e8c725fa79a",
+      "kind": "error",
+      "knownAt": 1794317504581.3586
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317505609.19,
+      "id": "error:source-parser:045100cd7692f8c42d7073b121905b55d4a4f59e0a9131aebbe1249e1cc0a352",
+      "kind": "error",
+      "knownAt": 1794317505609.1904
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317506624.288,
+      "id": "error:source-parser:d2a28505e2c7c2dd42726767782c0148793c0a22c60761af8ea9a05fe4cb0ff7",
+      "kind": "error",
+      "knownAt": 1794317506624.2883
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317507644.719,
+      "id": "error:source-parser:7934084f0185b3485fc5b82455089b1bba6bcbc8c0e24776f639aa8dddd7858d",
+      "kind": "error",
+      "knownAt": 1794317507644.7195
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317508667.6362,
+      "id": "error:source-parser:9312d3e19a720cab09dffe256209dea172b9cb40ca4befea3e037f7e3ca4a245",
+      "kind": "error",
+      "knownAt": 1794317508667.6367
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317509693.8237,
+      "id": "error:source-parser:87d63407d2e2c23eb4f10110567ee3186d6f566a73d08e7ba7bb59ac79d63da9",
+      "kind": "error",
+      "knownAt": 1794317509693.8242
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317510714.6294,
+      "id": "error:source-parser:df1eea8db5a50a83bec1a7ea9e7627ea49eef6cbd13db9cb76e2379572acae9d",
+      "kind": "error",
+      "knownAt": 1794317510714.63
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317511731.7898,
+      "id": "error:source-parser:df750d1c98ad7053ae59d575f3b0e3b1b5663dd1cdab3825e1b8fa48bbc3ebcf",
+      "kind": "error",
+      "knownAt": 1794317511731.79
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317512754.8486,
+      "id": "error:source-parser:37874db35a6ea7b6ef9ba9943e5843556a7f5f5526959a048d3e8b57843c19bd",
+      "kind": "error",
+      "knownAt": 1794317512754.849
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317513777.4568,
+      "id": "error:source-parser:7827b442325cc613290dc2da89db02d5266378b99200dbc3de1c96e478c5e5e9",
+      "kind": "error",
+      "knownAt": 1794317513777.4573
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317514777.244,
+      "id": "error:source-parser:bbe4a40db4ddc65d85a4c048b734ec4433e2069d755b3242cdbe89d01cf85fcd",
+      "kind": "error",
+      "knownAt": 1794317514777.2441
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317515800.1653,
+      "id": "error:source-parser:cafee9ccfea9683daa4166e1aa38cf1b27efa0621c122854e2820069ef5acb46",
+      "kind": "error",
+      "knownAt": 1794317515800.1655
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317516822.1255,
+      "id": "error:source-parser:0350cdbb308421fc531cb161f404397273493546dddd31d6272ba6e8e4403e87",
+      "kind": "error",
+      "knownAt": 1794317516822.126
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317517858.6526,
+      "id": "error:source-parser:878d92b858b17ad55733ad08264f8c431e10ddc58f3c92f350ce6c54a8f3bd78",
+      "kind": "error",
+      "knownAt": 1794317517858.653
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317518876.0352,
+      "id": "error:source-parser:3c7eb3676c33949b6ad126b40bb56d09cc449d4ee03e961524a4c715587b9403",
+      "kind": "error",
+      "knownAt": 1794317518876.0354
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317519885.9514,
+      "id": "error:source-parser:552866b82f6768c2ded72cc469f5ec666728c42fad9aec2780426cada4591f96",
+      "kind": "error",
+      "knownAt": 1794317519885.952
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317520910.6035,
+      "id": "error:source-parser:dff0194030ba3b48edaf401ba0520725c31f3100bee967543bbcfa605cc6bb92",
+      "kind": "error",
+      "knownAt": 1794317520910.604
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317526047.8386,
+      "id": "error:source-parser:5b45156983c4773b4a6c7d9a11623833612d3bc64af1535fb6801ea6199fb087",
+      "kind": "error",
+      "knownAt": 1794317526047.839
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317530920.786,
+      "id": "error:source-parser:fc025d75211224af6bee74da766b78c79a6ef64514f83c9d6b73a0c93f645c47",
+      "kind": "error",
+      "knownAt": 1794317530920.7864
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317535924.0886,
+      "id": "error:source-parser:a39b28de1f43d672739ff7912c28edb3b0968a98b2885708b8202ad65038b94a",
+      "kind": "error",
+      "knownAt": 1794317535924.0889
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317540921.0774,
+      "id": "error:source-parser:d94e35b8da9f5b5badd52fe31a1f070e2d33b56b18d3baa9fa339243addbb43d",
+      "kind": "error",
+      "knownAt": 1794317540921.078
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317545944.974,
+      "id": "error:source-parser:221d793ec90d629430bb950ac6ab73509205b5912c08452d958ce8ac347ee175",
+      "kind": "error",
+      "knownAt": 1794317545944.9746
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317551064.1907,
+      "id": "error:source-parser:fb670b6e028e02481a7456936c799b8543b586c45cae04552396461b2e34feda",
+      "kind": "error",
+      "knownAt": 1794317551064.1912
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317555944.2798,
+      "id": "error:source-parser:1ec608dde7b71d32f2aa65361424ec2408819e9ed3c8dc43a30bd2cd6b3a256b",
+      "kind": "error",
+      "knownAt": 1794317555944.2803
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317560945.0754,
+      "id": "error:source-parser:c990e65da84161805b0e3d113da135446b108a1da323383575f8c451c6d10705",
+      "kind": "error",
+      "knownAt": 1794317560945.0757
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317565946.2668,
+      "id": "error:source-parser:12aa8d7ac3e32785c129246100f5728e0bfbd826b021c382355925eb296997f8",
+      "kind": "error",
+      "knownAt": 1794317565946.2673
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317570972.253,
+      "id": "error:source-parser:c5d744219fbcd2d3640a7fff55eb2da8e3944e2bd97621d49bf9ed0edde77318",
+      "kind": "error",
+      "knownAt": 1794317570972.2532
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317575987.388,
+      "id": "error:source-parser:6a54e1cede057cfbbb985c0bde9b836c8c3a156c1e1c45e077fd00585e76b094",
+      "kind": "error",
+      "knownAt": 1794317575987.3884
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317580970.1216,
+      "id": "error:source-parser:2a7c9267a434b6f19b599660b491e0b7c3ab66cb53203628d282341dc0924231",
+      "kind": "error",
+      "knownAt": 1794317580970.1218
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317585977.6458,
+      "id": "error:source-parser:6df6c2ee076141996bf1de8220fd5ba2b0080ea3a8145ba049fbe0fde3eb3968",
+      "kind": "error",
+      "knownAt": 1794317585977.6462
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317590979.0654,
+      "id": "error:source-parser:8094ff1af4810c7fce27714d2a81acd07b57ff5993f5952429cf59478fe7f967",
+      "kind": "error",
+      "knownAt": 1794317590979.0657
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317595971.3203,
+      "id": "error:source-parser:be7e207d280b83dbfd2cf89dcf59a4709b285a4e797944732b0c0c35b20b1de3",
+      "kind": "error",
+      "knownAt": 1794317595971.3206
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317601069.775,
+      "id": "error:source-parser:7e5ae01bea9f58496582089674d206075501077f5c9b59362483912b06a63df1",
+      "kind": "error",
+      "knownAt": 1794317601069.7751
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317605973.807,
+      "id": "error:source-parser:f66e99b95f40c30c84af6e19bf339375c0725504b55e0fbf9e9794e28ecfd709",
+      "kind": "error",
+      "knownAt": 1794317605973.8074
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317611017.6082,
+      "id": "error:source-parser:a8b4604a050fa4b6e6a152bee502f39c6a226576872022b65bcd88d0f8baa57a",
+      "kind": "error",
+      "knownAt": 1794317611017.6086
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317615994.0203,
+      "id": "error:source-parser:6114382d42994bb3567fd7b3ed88992319629fdf79506c1e85807f8e9f131c6f",
+      "kind": "error",
+      "knownAt": 1794317615994.0205
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317621022.22,
+      "id": "error:source-parser:57799548ed2962dc6861381d8a58428633f22600a6fa972e370c365237b7f635",
+      "kind": "error",
+      "knownAt": 1794317621022.2205
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317625995.7148,
+      "id": "error:source-parser:18f97f09a998c7a54d11ed333f64575dde992af73aab781f09bf965668a56123",
+      "kind": "error",
+      "knownAt": 1794317625995.715
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317630996.85,
+      "id": "error:source-parser:4ee6faf032c4d522f437f5470095d05c96d57ff1b3cff6bc4154082b0169d8a8",
+      "kind": "error",
+      "knownAt": 1794317630996.8506
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317635998.134,
+      "id": "error:source-parser:43563ad7c870bfc7dc824b05065cf99225f4f9a39557d9db54b3430014ea0c04",
+      "kind": "error",
+      "knownAt": 1794317635998.1348
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317641008.1074,
+      "id": "error:source-parser:64ff741883966ed8b0d3674644a7a330a7757a67f2c47e0c2b62d55baeb0bf03",
+      "kind": "error",
+      "knownAt": 1794317641008.108
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317646006.7817,
+      "id": "error:source-parser:122967eaee6bf4cf80140f4db5c426ad2537ab9e1cd63f9641dd884dcf5a4e68",
+      "kind": "error",
+      "knownAt": 1794317646006.7825
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317650998.311,
+      "id": "error:source-parser:c505e6f76c27f1141dedaafadbd8e8e2a4f1c3d9a725391bc82286d8ba140444",
+      "kind": "error",
+      "knownAt": 1794317650998.3113
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317656000.1138,
+      "id": "error:source-parser:97319245491cf829139b4ede93f6be469eef6c6868e4ee2db21c2e90b65fb306",
+      "kind": "error",
+      "knownAt": 1794317656000.1143
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317660998.935,
+      "id": "error:source-parser:3c89f4c9858db8b47a713b4bc73619b2c592d60e5b12db9fae3c70aa9a0d4c00",
+      "kind": "error",
+      "knownAt": 1794317660998.9355
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317666003.6418,
+      "id": "error:source-parser:7698b3d0ec912cbe7e17ae9ca3738ad460fc0f8288d6acc3faab184fdb2717fd",
+      "kind": "error",
+      "knownAt": 1794317666003.6423
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317671109.2268,
+      "id": "error:source-parser:6f0a51d61cc211b2786a42ff91575cb769e6cba9e785baf2d0957286dfcd0a5f",
+      "kind": "error",
+      "knownAt": 1794317671109.2273
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317676024.0803,
+      "id": "error:source-parser:d5fe4d882a139762d3f85e43122c18103ca9b938439caec42b5de262ede6f828",
+      "kind": "error",
+      "knownAt": 1794317676024.0808
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317681026.0232,
+      "id": "error:source-parser:53943cae36a4e7fa35078b4a78174b68c2dbf77bdd9f50a6d49bc6240738c79b",
+      "kind": "error",
+      "knownAt": 1794317681026.0234
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317686046.8943,
+      "id": "error:source-parser:56b3ac0f0a924868fd21d23d8c6a1231264816733c6552fd1e5dcc2c72a248a8",
+      "kind": "error",
+      "knownAt": 1794317686046.8945
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317691061.5078,
+      "id": "error:source-parser:339751ba3e82c1b285501cbd4147146b9ab59e5e68899fa5637604ab215d1880",
+      "kind": "error",
+      "knownAt": 1794317691061.508
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317696087.3677,
+      "id": "error:source-parser:a0d386a25ab250036f47d19b72f6c7739f68a5560d492d5cb012b82b080ee539",
+      "kind": "error",
+      "knownAt": 1794317696087.3682
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317701049.1965,
+      "id": "error:source-parser:54ba80e277cdcba2c64dda09c1ba98a1a0ba18230916b4a592332dbb25f65367",
+      "kind": "error",
+      "knownAt": 1794317701049.197
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317706053.9092,
+      "id": "error:source-parser:b0fe9351dd59e98b3f86c0dca8be7b8c6c1116fe8d28757cb42dfb8c0fe1c315",
+      "kind": "error",
+      "knownAt": 1794317706053.9094
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317711052.5386,
+      "id": "error:source-parser:28f45a098ac35efe15f8ed46e50ab61e3190a2d80ddd80e85cf0c20efe38afae",
+      "kind": "error",
+      "knownAt": 1794317711052.539
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317716081.7542,
+      "id": "error:source-parser:c52414a6c5a240408560973ce4e523228d3a37b137c5afc2dcea9bb155c0d0a1",
+      "kind": "error",
+      "knownAt": 1794317716081.7546
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317721080.3208,
+      "id": "error:source-parser:593919dcccd38bebd19cbe36f99b0a1ef598d3001e1f87a6166762ac7f1ccd8d",
+      "kind": "error",
+      "knownAt": 1794317721080.3213
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317726075.9905,
+      "id": "error:source-parser:00185f56446383281eaace2bbfadb3abc01be49d09ecf728692246d31967579e",
+      "kind": "error",
+      "knownAt": 1794317726075.991
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317731077.7798,
+      "id": "error:source-parser:d5df40a0bc069413698e6a64398341c391c296dc535a263a367ba8ead0f33b9e",
+      "kind": "error",
+      "knownAt": 1794317731077.7803
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317736077.4666,
+      "id": "error:source-parser:edff69528d04cd53ba518e5840e496c3a0515b2d93e3e94ae53646d6c19b1829",
+      "kind": "error",
+      "knownAt": 1794317736077.467
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317741078.8745,
+      "id": "error:source-parser:916f4d379180cad0665c51bc9a083bbbdefbaa2f612fa412934544ac95b1eec7",
+      "kind": "error",
+      "knownAt": 1794317741078.8748
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317746107.8306,
+      "id": "error:source-parser:c5ce8052cf49352c51a8199d8446f4e91d06e3b3b0da4e434dc43fc526f4ea3e",
+      "kind": "error",
+      "knownAt": 1794317746107.831
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317751080.663,
+      "id": "error:source-parser:10a8b54027ef59549fee6dd6b6d94ef8aecc779c232f49a1fede69c18faf3e3a",
+      "kind": "error",
+      "knownAt": 1794317751080.6633
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317756102.5662,
+      "id": "error:source-parser:914a4b0ba1297f1d310a49df9719f06ccb2be8fd47c58fc046dfd7f7ff1cf4ae",
+      "kind": "error",
+      "knownAt": 1794317756102.5667
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317761106.1052,
+      "id": "error:source-parser:e742572e729f4e331c01efb35b308e64851cd4b96eb52e95c8f64aebbafc9957",
+      "kind": "error",
+      "knownAt": 1794317761106.1055
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317766233.5347,
+      "id": "error:source-parser:fdf9ea5dcc89b67ae709d3ba5cd16947977f673aba6fa25da146f7d6cfcd60d0",
+      "kind": "error",
+      "knownAt": 1794317766233.535
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317771219.477,
+      "id": "error:source-parser:0f68570ab621c04847a2782bfacf00b6eecbd7c393367f6196df489eb6c68149",
+      "kind": "error",
+      "knownAt": 1794317771219.4773
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317776116.808,
+      "id": "error:source-parser:7b48a9cc420d84d7f070cd09c95a0ba7b502c2ae59878767f52dcc7aff9138ee",
+      "kind": "error",
+      "knownAt": 1794317776116.8083
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317781133.7764,
+      "id": "error:source-parser:e65a8ff92eae3cdd8860c8207e661805990d3a34c513cb3251b0212686466833",
+      "kind": "error",
+      "knownAt": 1794317781133.7769
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317786137.3218,
+      "id": "error:source-parser:7159c8a15bc9c2e9694ca69f26bc37b4a6a1c4ac774769f0917f8fe7a17850e1",
+      "kind": "error",
+      "knownAt": 1794317786137.322
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317791132.3901,
+      "id": "error:source-parser:196368fc6bc27b7053f5d1ef311d3dfcdfce7ac0944e9e8f2bde73768258b3b7",
+      "kind": "error",
+      "knownAt": 1794317791132.3906
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317796136.946,
+      "id": "error:source-parser:ce0971da9e4367d5fc97de416f456696360c4598aa3da60f5a0f972d4be522ad",
+      "kind": "error",
+      "knownAt": 1794317796136.9465
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317801139.725,
+      "id": "error:source-parser:8515a53ec4ab2b708e83ef3abf2367c3acbd8eef1e5db61f0268d6e0e1fb1e76",
+      "kind": "error",
+      "knownAt": 1794317801139.7256
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317806143.6736,
+      "id": "error:source-parser:77e222675b6f7e4a728d4767c80c45a9341fcb367ac88d8faec29d6d0752fe4a",
+      "kind": "error",
+      "knownAt": 1794317806143.6738
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317811134.9346,
+      "id": "error:source-parser:373b1028c6e1e21efaf6325313bcdfd1b60d97c1e056103da7a64cdfe2eef9d5",
+      "kind": "error",
+      "knownAt": 1794317811134.935
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317816152.3984,
+      "id": "error:source-parser:342f9c1f40a5dbf4c1c419511c75ec916d89a62b8be4b339319e5f48f9bd6b2c",
+      "kind": "error",
+      "knownAt": 1794317816152.399
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317821136.0618,
+      "id": "error:source-parser:cef5955bb0d8243d772b6547e6e05f1c8456d90b7332597359f1971627cf3060",
+      "kind": "error",
+      "knownAt": 1794317821136.0623
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317826161.5918,
+      "id": "error:source-parser:08029341a7a513d50552824f4d91479ac4a500794b65294ae029923677f097d4",
+      "kind": "error",
+      "knownAt": 1794317826161.5923
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317831143.6687,
+      "id": "error:source-parser:915cb2d5f236ee09aa6190c0133be575802622550f98c3f9b915c8729b1d063a",
+      "kind": "error",
+      "knownAt": 1794317831143.6692
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317836137.4285,
+      "id": "error:source-parser:a4468bda77ab55353154f5e700e8eb5f8bbf2b44abd3e99ea612acb47bcb578e",
+      "kind": "error",
+      "knownAt": 1794317836137.429
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317841136.0896,
+      "id": "error:source-parser:1628a86d1e247a632764cec713c7b17d25ff6a6a58c3f5cd52afa063ab524997",
+      "kind": "error",
+      "knownAt": 1794317841136.0898
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317846165.1602,
+      "id": "error:source-parser:7194090310ac004caae63764e566ca7d3ab8809f214679751b9153c825bd1511",
+      "kind": "error",
+      "knownAt": 1794317846165.1604
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317851291.2637,
+      "id": "error:source-parser:32f516bde4be557b8087c488b35c33986278d0fb39b3096ae72d9eb3a771c8fe",
+      "kind": "error",
+      "knownAt": 1794317851291.2644
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317856160.1956,
+      "id": "error:source-parser:90222e5d3b95a380da03c5497625be10c8431bdfd6ce3b980e3fc04c0a733da4",
+      "kind": "error",
+      "knownAt": 1794317856160.196
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317861160.6892,
+      "id": "error:source-parser:815de6b956327afb5866c2a1a6f173db3be8bec9c01cc1ca8d6bd462933ab54c",
+      "kind": "error",
+      "knownAt": 1794317861160.6895
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317866164.4915,
+      "id": "error:source-parser:970b4488e21d32ed09557fbe05907e0c46b8d8a54d3c35853af4ef33b3988eed",
+      "kind": "error",
+      "knownAt": 1794317866164.4917
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317871162.667,
+      "id": "error:source-parser:d5c048f39a7f4cee13d149a812a714d77849421b3a8ad8c31f69d714ace9409b",
+      "kind": "error",
+      "knownAt": 1794317871162.6672
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317876189.6765,
+      "id": "error:source-parser:6e6c3cef57c398cbc62c4a8098716847277999c9deb4a08dab98822f8933a5eb",
+      "kind": "error",
+      "knownAt": 1794317876189.6768
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317881163.7617,
+      "id": "error:source-parser:9c0474506cfb86a24c33953069d2c8444c55f90e403c8f2f197e4f1cbc2c63bc",
+      "kind": "error",
+      "knownAt": 1794317881163.762
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317886184.6208,
+      "id": "error:source-parser:8e823b31de794c359a70cbe16889e0fdfb1fea5eef7dbc4ecbe6f316ce4bf6a2",
+      "kind": "error",
+      "knownAt": 1794317886184.621
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317891185.9487,
+      "id": "error:source-parser:8fc7cbca4735c0a3422c7fcc53da6ddded10a83094b46f671261a2ef5625ac71",
+      "kind": "error",
+      "knownAt": 1794317891185.9492
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317896208.8145,
+      "id": "error:source-parser:e342a00fa8b9cbb583f315fc2cd8c4dbac34d99b4ef588f5483fddd3f6ed6872",
+      "kind": "error",
+      "knownAt": 1794317896208.8147
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317901193.968,
+      "id": "error:source-parser:33e7d17676fe8ae7f5823d5f6717295b7172fceb91bceb5208ba506ef841ad12",
+      "kind": "error",
+      "knownAt": 1794317901193.9685
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317906187.6992,
+      "id": "error:source-parser:b27fd3828192c7f507dd8ed16618155aaa8d515a13fd7ae3a7c401f366c9de29",
+      "kind": "error",
+      "knownAt": 1794317906187.6997
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317911228.925,
+      "id": "error:source-parser:26311cfc685300ad5ec718237654cce0e7890cd9d19ea2b0eee7cddb6f63e0ca",
+      "kind": "error",
+      "knownAt": 1794317911228.9253
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317916209.7478,
+      "id": "error:source-parser:21a3ea9d166985fd74fdfeb35f29f5c3cf8e1e233e845125db7df5990677f6e2",
+      "kind": "error",
+      "knownAt": 1794317916209.7483
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317921337.4456,
+      "id": "error:source-parser:89edd629207a5c6a03f2b01fe36af562a2ab90add2da53dbe125d07e17344991",
+      "kind": "error",
+      "knownAt": 1794317921337.4458
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317926216.1226,
+      "id": "error:source-parser:9f477a1aaae7bae95959706baa4d5836a0b4d377ee1d99bc7db92d09b2c83ee0",
+      "kind": "error",
+      "knownAt": 1794317926216.1228
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317931214.2383,
+      "id": "error:source-parser:d0b6c9c39921617dfa8097881973ec17f5a63ad7ec3102036e27f7af4df77173",
+      "kind": "error",
+      "knownAt": 1794317931214.2388
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317936214.8625,
+      "id": "error:source-parser:29290e142950b3288404dfa5a0739651043f967e2a941cf47852a6768d9b80ad",
+      "kind": "error",
+      "knownAt": 1794317936214.8628
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317941241.2397,
+      "id": "error:source-parser:c02a40283101894f94adf043cb75775e1e3bd7542bb0b6dde09c56395f212e49",
+      "kind": "error",
+      "knownAt": 1794317941241.2402
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317946334.2727,
+      "id": "error:source-parser:f5215d71a71d84e04a316295867735b61f7339a8356f26def9f3a04578c8104c",
+      "kind": "error",
+      "knownAt": 1794317946334.2732
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317951239.6794,
+      "id": "error:source-parser:4fd2891c4c26996d7a40fc86bda034a9e3ab6c2e884cb53e240caa84279da011",
+      "kind": "error",
+      "knownAt": 1794317951239.6797
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317956240,
+      "id": "error:source-parser:0c5a85a3f3101dd545c0962021fc7a14990fa232345f2041262a003343a41fd8",
+      "kind": "error",
+      "knownAt": 1794317956240.0002
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317961247.835,
+      "id": "error:source-parser:6d682cf18c97a5753fe635c1bdcfe1121f63f62c6bd06aa18d105379a631927f",
+      "kind": "error",
+      "knownAt": 1794317961247.8354
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317966245.6218,
+      "id": "error:source-parser:62baf444e6d1b6b4754e73bb18c9670e269af8f89493c2b0968be0e7f5f49618",
+      "kind": "error",
+      "knownAt": 1794317966245.6228
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317971257.757,
+      "id": "error:source-parser:978f14996f2356b6bf43ecf074024acab2469d65181eb932c29ab6235c59228e",
+      "kind": "error",
+      "knownAt": 1794317971257.7573
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317976240.1157,
+      "id": "error:source-parser:9d32d5e930cf5f5c2db805d1a6c389763992c07d7fc99186d82693535ce97b6c",
+      "kind": "error",
+      "knownAt": 1794317976240.116
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317981240.9106,
+      "id": "error:source-parser:dd166fce9f13e125056da19033bae3536ed3c579bfef9534cafbfd9425d6bac6",
+      "kind": "error",
+      "knownAt": 1794317981240.9111
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317986241.2024,
+      "id": "error:source-parser:a0c1f1ae415b19eb33a2b9acfdc7cc0535e3491005d143c9157c11168fee998a",
+      "kind": "error",
+      "knownAt": 1794317986241.2026
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317991256.233,
+      "id": "error:source-parser:04e8a8c5bd2111e05318d4aae2b79cd17a351c52115f77109f9baca905c16af8",
+      "kind": "error",
+      "knownAt": 1794317991256.2332
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794317996271.049,
+      "id": "error:source-parser:32d54893daf934d64e6173800d46d5a90aa0b3801194da3886917e5df825e7a1",
+      "kind": "error",
+      "knownAt": 1794317996271.0493
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318001243.4187,
+      "id": "error:source-parser:8b8ca2f5738f52459ecd3c38f8709b8afe0811821b544cfbafb82d9960f170b9",
+      "kind": "error",
+      "knownAt": 1794318001243.419
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318031304.0642,
+      "id": "error:source-parser:bf1d835eebed964dd1948a17acc98927b4fa6438b6fab8c51bccb44e2666e973",
+      "kind": "error",
+      "knownAt": 1794318031304.0645
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318061437.376,
+      "id": "error:source-parser:85a258befa29ff26e581ba9930013b85913c1c268211ad569ad3d8099e236a88",
+      "kind": "error",
+      "knownAt": 1794318061437.3762
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318091308.4822,
+      "id": "error:source-parser:e9d9b00d03c13ba98d55caaa4adb1ea354e2e26bccd80eb943c8081bae5cd33a",
+      "kind": "error",
+      "knownAt": 1794318091308.4824
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318121294.867,
+      "id": "error:source-parser:4b4901f6187aad1e606564140e6235ad87486f961254ca9e411b41fd43000551",
+      "kind": "error",
+      "knownAt": 1794318121294.8672
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318151291.5837,
+      "id": "error:source-parser:57e3eef14e207ef58514b451bd8db0bf1902422c1e0545f782eebb7d6cea8adc",
+      "kind": "error",
+      "knownAt": 1794318151291.584
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318181302.2417,
+      "id": "error:source-parser:c23085004d87a6384c1e14d456564dc3e3c15d74f3f1bab3062e6021d287754a",
+      "kind": "error",
+      "knownAt": 1794318181302.242
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318211295.4514,
+      "id": "error:source-parser:94757a155360c73418517a90139fe41d432b01e06f1ff2233f0845e3b11250d1",
+      "kind": "error",
+      "knownAt": 1794318211295.452
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318241311.8115,
+      "id": "error:source-parser:08efe6e33c9b0582a0a0d20a839d5d9423bc13931e3706a8e817f08dfb3f50e4",
+      "kind": "error",
+      "knownAt": 1794318241311.812
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318271414.4988,
+      "id": "error:source-parser:4320e2d1e0bf7ff4aef568b56db0950369b9d4a0cd1164e3301bf2db64549205",
+      "kind": "error",
+      "knownAt": 1794318271414.4993
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318301319.6814,
+      "id": "error:source-parser:e792d1b5812612a6df02213137be5e4566a860826c90bb57dd435ea12c816542",
+      "kind": "error",
+      "knownAt": 1794318301319.682
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318331335.4382,
+      "id": "error:source-parser:29ab32625a3ecde2fb0b5b55552b01e47a7af0158d676e6e50aa3c062fdfffad",
+      "kind": "error",
+      "knownAt": 1794318331335.439
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318361419.0706,
+      "id": "error:source-parser:98b2b1acd3caaf8cfaaea923e9a269bbadacc88d15344a4bdff8d7df460b63a0",
+      "kind": "error",
+      "knownAt": 1794318361419.0713
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318391330.1108,
+      "id": "error:source-parser:e6b11a045bfdf99a0290bc199bcdcfa7622dff5a332f913739234ef858d75764",
+      "kind": "error",
+      "knownAt": 1794318391330.1116
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318421396.4756,
+      "id": "error:source-parser:34d34c84ccd7021ade8ee957e38c0f71914e0828e7a62579ea80dd0bf9dcc24c",
+      "kind": "error",
+      "knownAt": 1794318421396.476
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318451330.4636,
+      "id": "error:source-parser:6567f9fe425a42364ef50b82c8c5cb7c915bb40652aa6e13f5ebd5216a1a10d4",
+      "kind": "error",
+      "knownAt": 1794318451330.464
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318481304.3447,
+      "id": "error:source-parser:e2719470f34a3233f0fb205529c8fbacca6d8643960aab6240941c3203bca877",
+      "kind": "error",
+      "knownAt": 1794318481304.3452
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318511334.0537,
+      "id": "error:source-parser:a0bbf30bc062aef1e5fbe1ae3f5bbd97cc18c59b4d0eaf20926214f17256c3a0",
+      "kind": "error",
+      "knownAt": 1794318511334.0542
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318541393.9795,
+      "id": "error:source-parser:cd7cb13d6e205a7a8818eaf967849e0b224e69382da1e12d8d11f27475691b61",
+      "kind": "error",
+      "knownAt": 1794318541393.98
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318571324.36,
+      "id": "error:source-parser:64d7de08d9af84ed7dfe2aba30450d0c0d2015101962a9676cff86976a0099da",
+      "kind": "error",
+      "knownAt": 1794318571324.3606
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318601305.0552,
+      "id": "error:source-parser:4ead56be0fc232c387fbe93a83a5988547244a9f3eaa4c93b3dce7b8d7ee9097",
+      "kind": "error",
+      "knownAt": 1794318601305.0557
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318631338.936,
+      "id": "error:source-parser:e83aa5fad008a1409ce78732f5c2c08756b506f359869833cbffa2de72a4777a",
+      "kind": "error",
+      "knownAt": 1794318631338.9363
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318661330.9233,
+      "id": "error:source-parser:e24126cd90221fe3d0a8830e2dabd87ef9be0499c4acc2d7127a4f6a7d033f12",
+      "kind": "error",
+      "knownAt": 1794318661330.9236
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318691306.9883,
+      "id": "error:source-parser:8defcd78bc8f3fc8680abf32edc5785c025760d221b9589f2525e7970e07709a",
+      "kind": "error",
+      "knownAt": 1794318691306.9888
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318721308.8625,
+      "id": "error:source-parser:51bd86ac2c0b51a7842b0a34ed387e9be91f2c8a98772667bc463850a28d7a23",
+      "kind": "error",
+      "knownAt": 1794318721308.863
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318751357.7039,
+      "id": "error:source-parser:80942c310285f5241d423dfac8bfd7962044488d67e1720449fbde762dc2d8a0",
+      "kind": "error",
+      "knownAt": 1794318751357.7043
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318781325.9246,
+      "id": "error:source-parser:603cb8a4df7ec2af5341138f5ed501a4f27e9d46ab65a658ddd419bfbcf5c4d6",
+      "kind": "error",
+      "knownAt": 1794318781325.9248
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318811339.672,
+      "id": "error:source-parser:c8493e9489ced4f1e7d232882540a8d5162a042b77a7e22b5d8422e889098006",
+      "kind": "error",
+      "knownAt": 1794318811339.6726
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318841326.1196,
+      "id": "error:source-parser:8d00a1accdbc51a431fb760f69902b6eedd0ef6005f74341a0710c66de6ea928",
+      "kind": "error",
+      "knownAt": 1794318841326.12
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318871395.9194,
+      "id": "error:source-parser:c60e6a5f7bbf8895133723d9daf2c471600a53b4b36000141d16bbd76f7c83c9",
+      "kind": "error",
+      "knownAt": 1794318871395.92
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318901354.0342,
+      "id": "error:source-parser:02e161a403df477f4a21fc005b21aeab17ab18733ae333deb49636dfd2e07211",
+      "kind": "error",
+      "knownAt": 1794318901354.0347
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318931363.3772,
+      "id": "error:source-parser:c0cf2f57e8199b54ffdf407aa9dc02e869f3b08af2cd70507e071ce48e83d757",
+      "kind": "error",
+      "knownAt": 1794318931363.3777
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318961356.082,
+      "id": "error:source-parser:73a9ba033e7e854e8cc452407cb36fb568c27eca6c3994beb5221f7930c58720",
+      "kind": "error",
+      "knownAt": 1794318961356.0825
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794318991335.9556,
+      "id": "error:source-parser:c9b765a3f5b4ecf077f44bd116d76a8fc32ff0440978d0e059be420e52acff8c",
+      "kind": "error",
+      "knownAt": 1794318991335.9563
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794319021362.311,
+      "id": "error:source-parser:b328a4ac7d78b68cb99f789427fe5a8c8e0af3146c37a55a9af44de34b028c78",
+      "kind": "error",
+      "knownAt": 1794319021362.3115
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794319051369.9092,
+      "id": "error:source-parser:6e7324572915211376eee8f72941c71e3b82b180ef186efb9eecab414cf5c711",
+      "kind": "error",
+      "knownAt": 1794319051369.9094
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794319081344.3237,
+      "id": "error:source-parser:9802e265e272890fecdb4ece799bb586f905cf9a080443973e1bf860770eb180",
+      "kind": "error",
+      "knownAt": 1794319081344.3245
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794319111347.832,
+      "id": "error:source-parser:ebb637e717b48f9877f1030ed7fb0c7c0bf4c96565e0bcf3d98cfca52e51919f",
+      "kind": "error",
+      "knownAt": 1794319111347.8323
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794319141382.9443,
+      "id": "error:source-parser:1122a11fa3c33e72bcb56b238b9a4733f4a0f9c3f7b501c81af86d44f2deb2e2",
+      "kind": "error",
+      "knownAt": 1794319141382.9448
+    },
+    {
+      "stage": "source-parser",
+      "message": "Error: Unadjusted annual headline unavailable",
+      "at": 1794319171366.6296,
+      "id": "error:source-parser:dc9dfa92e09fff8a56c0e09374aba5e65cb6935f850eb46c6e85702f07e6a269",
+      "kind": "error",
+      "knownAt": 1794319171366.6301
+    }
+  ],
+  "requests": 318,
   "sessions": [
     {
       "start": 1794266165619.0774,
@@ -319,9 +2613,17 @@
       "id": "session:1794298595800.2415",
       "kind": "session",
       "knownAt": 1794298595800.293
+    },
+    {
+      "start": 1794314805784.3386,
+      "stop": 1794331005784.3386,
+      "boot": false,
+      "id": "session:1794314805784.3386",
+      "kind": "session",
+      "knownAt": 1794314805784.39
     }
   ],
-  "databaseBytes": 291352,
+  "databaseBytes": 4521464,
   "limitations": [
     "Single CPI release: one risk episode, monthly and annual correlated; cannot establish repeatable edge.",
     "Snapshots do not reserve liquidity or prove a live order would fill. No real trades or gains.",
