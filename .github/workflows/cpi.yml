@@ -1,25 +1,49 @@
 name: Test virtuel publication CPI
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '43 12 10 12 *'
+  push:
+    branches: [main]
+    paths: ['.github/workflows/**', 'src/**', 'test/**', 'policy.json', 'seed.json']
 permissions:
   contents: write
   actions: read
 concurrency:
-  group: cpi-20261110-v1
+  group: cpi-20261210-v2-${{ github.event_name == 'push' && github.run_id || 'capture' }}
   cancel-in-progress: false
 jobs:
   tests:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    outputs:
+      launch: ${{ steps.window.outputs.launch }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version: '24'
       - run: node --test test/*.test.mjs
+      - name: Vérifier les sources et les carnets en lecture seule
+        if: github.event_name == 'push'
+        run: node src/run.mjs --verify
+      - name: Vérifier la fenêtre de la campagne
+        id: window
+        if: github.event_name != 'push'
+        run: |
+          node --input-type=module - <<'NODE'
+          import { readFileSync, appendFileSync } from 'node:fs';
+          const policy = JSON.parse(readFileSync('policy.json'));
+          const now = Date.now();
+          if (now < policy.initializeAfter || now >= policy.initializeBefore) {
+            throw Error('Campagne hors de la fenêtre de démarrage du 10 décembre 2026.');
+          }
+          appendFileSync(process.env.GITHUB_OUTPUT, 'launch=true\n');
+          NODE
   session1:
     needs: tests
+    if: needs.tests.outputs.launch == 'true'
     uses: ./.github/workflows/segment.yml
     with:
       number: 1

@@ -26,8 +26,8 @@ jobs:
         uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: checkpoint
-          key: cpi-20261110-v1-${{ github.run_id }}-${{ github.run_attempt }}-${{ inputs.number }}-final
-          restore-keys: cpi-20261110-v1-
+          key: cpi-20261210-v2-${{ github.run_id }}-${{ github.run_attempt }}-${{ inputs.number }}-restore
+          restore-keys: cpi-20261210-v2-${{ github.run_id }}-
       - name: Refuser une nouvelle fenêtre ou une mémoire perdue
         env:
           SEGMENT: ${{ inputs.number }}
@@ -38,7 +38,7 @@ jobs:
               echo 'Mémoire absente : arrêt sans réinitialisation.' >&2
               exit 1
             fi
-            if [ -n "$(git ls-remote --heads origin results)" ]; then
+            if [ -n "$(git ls-remote --heads origin refs/heads/results-cpi-20261210-v2)" ]; then
               echo 'Une campagne CPI existe déjà : pas de doublon.' >&2
               exit 1
             fi
@@ -51,7 +51,7 @@ jobs:
         uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: checkpoint
-          key: cpi-20261110-v1-${{ github.run_id }}-${{ github.run_attempt }}-boot
+          key: cpi-20261210-v2-${{ github.run_id }}-${{ github.run_attempt }}-boot
       - name: Publier la preuve du démarrage
         if: inputs.number == 1
         run: node src/publish-report.mjs
@@ -62,7 +62,7 @@ jobs:
         uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: checkpoint
-          key: cpi-20261110-v1-${{ github.run_id }}-${{ github.run_attempt }}-${{ inputs.number }}-final
+          key: cpi-20261210-v2-${{ github.run_id }}-${{ github.run_attempt }}-${{ inputs.number }}-final
       - name: Publier le bilan et les preuves de la session
         if: always() && hashFiles('checkpoint/reports/bilan.json') != ''
         run: |
@@ -89,5 +89,5 @@ jobs:
             checkpoint/reports/
             policy.json
             seed.json
-          retention-days: 2
+          retention-days: 14
           compression-level: 0

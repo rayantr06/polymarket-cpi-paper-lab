@@ -3,6 +3,28 @@ import {applyBookEvent} from './climate-books.mjs';
 import {hash} from './store.mjs';
 export const RPCS=['https://polygon.gateway.tenderly.co','https://polygon.drpc.org'];
 export async function rpc(fetcher,url,method,params){const r=await fetcher(url,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({jsonrpc:'2.0',id:1,method,params})});const b=await r.json();if(!r.ok||b.error||!Object.hasOwn(b,'result'))throw Error('Public RPC failed: '+method);return b.result;}
+export async function diagnosticBooks(markets,{fetcher=fetch,clock=Date.now}={}){
+ const tokenFor=market=>JSON.parse(market.clobTokenIds)[0];
+ const requestedAt=clock();
+ const response=await fetcher('https://clob.polymarket.com/books',{method:'POST',headers:{'content-type':'application/json'},
+  body:JSON.stringify(markets.map(market=>({token_id:tokenFor(market)})))});
+ if(!response.ok)throw Error('Public order books HTTP '+response.status);
+ const books=await response.json(),receivedAt=response.receivedAt??clock();
+ if(!Array.isArray(books))throw Error('Invalid batch order books');
+ const depth=(levels,side)=>Array.isArray(levels)?levels.map(l=>({price:Number(l.price),size:Number(l.size)}))
+  .filter(l=>l.price>0&&l.price<1&&Number.isFinite(l.size)&&l.size>0).sort((a,b)=>side*(a.price-b.price)).slice(0,20):null;
+ const snapshots=markets.map(market=>{
+  const token=tokenFor(market),matches=books.filter(book=>book.asset_id===token),book=matches[0];
+  const key={slug:market.slug,condition:market.conditionId,token};
+  if(matches.length!==1||book.market!==market.conditionId||book.neg_risk!==market.negRisk||
+    !Number.isFinite(Number(book.timestamp))||Number(book.timestamp)<=0)return {...key,error:'Missing or mismatched order book'};
+  const bids=depth(book.bids,-1),asks=depth(book.asks,1);
+  if(!bids||!asks)return {...key,error:'Invalid book depth'};
+  return {...key,exchangeAt:Number(book.timestamp),hash:book.hash,minimumShares:Number(book.min_order_size),
+   tickSize:Number(book.tick_size),bids,asks,spread:bids.length&&asks.length?asks[0].price-bids[0].price:null};
+ });
+ return {requestedAt,receivedAt,snapshots};
+}
 export async function freshBasket(legs,{fetcher=fetch,clock=Date.now}={}){
  const snapshots=await Promise.all(legs.map(l=>fetchPaperSnapshot({slug:l.market.slug,condition_id:l.market.conditionId,tokens:l.market.clobTokenIds,outcomes:l.market.outcomes},l.outcome,{fetcher:async(url,o)=>{const r=await fetcher(url,o);if(String(url).includes('gamma-api.polymarket.com/markets/slug/')&&r.ok){const m=await r.clone().json();if(hash(m.description)!==hash(l.market.description))throw Error('Rules changed during the quote');}return r;},clock,allowNegativeRisk:true}))),states=new Map(snapshots.map(s=>[s.token,s])),frames=[];
  await new Promise(resolve=>{let done=false;const ws=new WebSocket('wss://ws-subscriptions-clob.polymarket.com/ws/market');const end=()=>{if(done)return;done=true;clearTimeout(timer);ws.close();resolve();};const timer=setTimeout(end,5000);ws.onopen=()=>ws.send(JSON.stringify({assets_ids:[...states.keys()],type:'market'}));ws.onerror=end;ws.onclose=end;ws.onmessage=msg=>{if(msg.data==='PONG')return;try{const body=JSON.parse(msg.data),receivedAt=clock();if(JSON.stringify(body).length>1000000)return end();frames.push({body,receivedAt});for(const e of Array.isArray(body)?body:[body])applyBookEvent(states,e,receivedAt);if([...states.values()].every(s=>s.streamInitialized))end();}catch{end();}};});

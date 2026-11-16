@@ -1,9 +1,9 @@
 {
-  "id": "cpi-20261110-v1",
-  "releaseAt": 1794317400000,
+  "id": "cpi-20261210-v2",
+  "releaseAt": 1796909400000,
   "referenceYear": 2026,
-  "referenceMonth": "October",
-  "referenceMonthNumber": 10,
+  "referenceMonth": "November",
+  "referenceMonthNumber": 11,
   "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
   "calendarUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
   "delaysMs": [
@@ -22,9 +22,24 @@
   "maxDatabaseBytes": 20971520,
   "maxResponseBytes": 2000000,
   "maxRecordBytes": 2000000,
-  "initializeBefore": 1794316500000,
+  "initializeBefore": 1796908500000,
   "networkTimeoutMs": 4000,
   "repository": "rayantr06/polymarket-cpi-paper-lab",
   "publicScope": "Minimal autonomous CPI test code, public official-release and market snapshots, paper decisions and results only",
-  "otherPilots": "Do not modify, restart or read their databases"
+  "otherPilots": "Do not modify, restart or read their databases",
+  "initializeAfter": 1796902200000,
+  "diagnosticOffsetsMs": [
+    -10000,
+    0,
+    1000,
+    5000,
+    15000,
+    30000,
+    60000,
+    120000
+  ],
+  "resultsBranch": "results-cpi-20261210-v2",
+  "families": [
+    "monthly"
+  ]
 }

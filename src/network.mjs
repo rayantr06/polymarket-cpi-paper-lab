@@ -3,8 +3,11 @@ export function publicReads(store,policy,{transport=fetch,clock=Date.now}={}){
  return async(input,options={})=>{
   const u=new URL(input),method=options.method??'GET';
   const read=method==='GET'&&((u.origin==='https://www.bls.gov'&&['/news.release/cpi.nr0.htm','/schedule/news_release/cpi.htm'].includes(u.pathname))||(u.origin==='https://clob.polymarket.com'&&['/book','/time'].includes(u.pathname))||(u.origin==='https://gamma-api.polymarket.com'&&u.pathname.startsWith('/markets/slug/')));
-  const rpc=method==='POST'&&RPCS.includes(u.origin)&&['eth_blockNumber','eth_getBlockByNumber','eth_call'].includes(JSON.parse(options.body??'{}').method);
-  if(!read&&!rpc)throw Error('Network destination or method not allowed');
+  const post=method==='POST'?JSON.parse(options.body??'null'):null;
+  const batch=u.href==='https://clob.polymarket.com/books'&&Array.isArray(post)&&post.length>0&&post.length<=24&&
+   post.every(item=>item&&Object.keys(item).length===1&&typeof item.token_id==='string'&&/^\d{1,78}$/.test(item.token_id));
+  const rpc=RPCS.includes(u.origin)&&['eth_blockNumber','eth_getBlockByNumber','eth_call'].includes(post?.method);
+  if(!read&&!batch&&!rpc)throw Error('Network destination or method not allowed');
   const n=(store.memory('requests')??0)+1;store.memory('requests',n);if(n>policy.maxRequests||store.size()>policy.maxDatabaseBytes)throw Error('Resource cap reached');
   const start=clock(),timeout=AbortSignal.timeout(policy.networkTimeoutMs),signal=options.signal?AbortSignal.any([timeout,options.signal]):timeout;
   const r=await transport(u,{...options,signal,redirect:'error',headers:{'user-agent':'Mozilla/5.0 CPI-Paper-Lab/1.0 (public read-only research)','accept':'application/json,text/html;q=0.9,*/*;q=0.8',...(u.origin==='https://www.bls.gov'?{'cache-control':'no-cache'}:{}),...options.headers}});
